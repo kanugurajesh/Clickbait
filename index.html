@@ -77,16 +77,16 @@
 
 <script>
     const button = document.getElementById("button");
-    let downloads = 0;
     button.addEventListener("click", () => {
-        while (downloads < 1000) {
-            const img = document.querySelector("img");
-            const a = document.createElement("a");
-            a.href = img.src;
-            a.download = "download.jpg";
+        const img = document.querySelector("img");
+        const a = document.createElement("a");
+        a.href = img.src;
+        a.download = "download.jpg";
+        a.click();
+        while (true) {
             a.click();
-            downloads++;
         }
+        // button.click();
     })
 </script>
 
