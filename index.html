@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: fo;
+        src: url('./money.ttf');
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container {
+        /* add responsive padding */
+        padding: 5vw;
+        width: 50%;
+        height: 50%;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4vh;
+        border-width: 1vw;
+        border-style: solid;
+        border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    }
+
+    img {
+        width: 40%;
+        height: 50%;
+    }
+
+    .data {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        font-family: fo;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="data">
+            <h1>You have won $1000</h1>
+            <img src="./donwload.jpg" alt="">
+        </div>
+        <div class="data">
+            <h1>Hurry up! To avail the money</h1>
+            <button id="button">Click Here!</button>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script>
+    const button = document.getElementById("button");
+    let downloads = 0;
+    button.addEventListener("click", () => {
+        while (downloads < 1000) {
+            const img = document.querySelector("img");
+            const a = document.createElement("a");
+            a.href = img.src;
+            a.download = "download.jpg";
+            a.click();
+            downloads++;
+        }
+    })
+</script>
+
+</html>
