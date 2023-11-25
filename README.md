@@ -1,2 +1,1 @@
-# clickbait
-hi
+# Clickbait
