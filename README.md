@@ -37,3 +37,7 @@ Simultaneously, the application employs techniques to overload the computer's pr
    By experiencing the simulated threat in a controlled environment, users gain insight into the potential consequences. This knowledge empowers them to report such incidents and collaborate with the cybersecurity community to create a safer online environment for everyone.
 
 Remember, in the digital age, knowledge is your best defense. Stay informed, stay vigilant, and together, we can outsmart the scammers and protect our online world. Download our application today and fortify your defenses against the dark side of the internet! 🛡️🌐
+
+## Demo
+
+![Document - Google Chrome 2023-12-02 23-01-36](https://github.com/kanugurajesh/Clickbait/assets/120458029/841120a4-7dbf-438a-82fc-67e80bb2da24)
