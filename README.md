@@ -41,3 +41,26 @@ Remember, in the digital age, knowledge is your best defense. Stay informed, sta
 ## Demo
 
 ![Document - Google Chrome 2023-12-02 23-01-36](https://github.com/kanugurajesh/Clickbait/assets/120458029/841120a4-7dbf-438a-82fc-67e80bb2da24)
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rajeshportfolio.me/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/exploringengin1)
+
+## Tech Stack
+
+- Html
+- Css
+- Javascript
+
+## Authors
+
+- [@kanugurajesh](https://github.com/kanugurajesh)
+
+## Support
+
+For support, you can buy me a coffee
+
+<a href="https://www.buymeacoffee.com/kanugurajen" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/kanugurajesh/Image-Classification/blob/main/LICENSE.txt)
